@@ -34,3 +34,34 @@ Next I am going to tell Git to take a snapshot of the contents of all files unde
 ```
 $ git add .
 ```
+Now there is a whole bunch of stuff in the .git folder.
+```
+Ethans-MacBook-Air:.git dreamer$ ls
+HEAD		description	index		objects
+config		hooks		info		refs
+```
+Then the commit:
+```
+$ git commit
+```
+This command prompts me for a commit message.
+It happens to launch VSCode.
+What I want is for it to open a new terminal window and prompt me to enter the commit message in Vim.
+The answer is in the docs about [setup and config](https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Setup-and-Config).
+```
+git config --global core.editor "vim --nofork"
+```
+Next time it should open the prompt to write a commit message in Vim in the terminal.
+
+Mission accomplished.
+Now there is a snapshot of the whole project as it stands now, at the end of the third day.
+I have gotten all of the posts into the website.
+The next step is to go in and edit them plus format them.
+
+## Next time
+Some open questions are:
+- How should I organize the posts? Because it's nice to have them in chronological order, but it would also be nice to set things up in series.
+- What are some examples of other folks' documentation websites?
+- How can I set up next and previous links through a series of posts
+- It would be cool to make a Dream series, a Feldenkrais series, and a Computer series
+    - is the best way to do this with Tags? Categories? something else?
