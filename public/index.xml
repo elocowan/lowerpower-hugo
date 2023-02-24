@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Home on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Feb 2023 19:03:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Editing and Version Histories</title>
+      <link>http://example.org/posts/2023-02-23-editing-and-version-histories/</link>
+      <pubDate>Thu, 23 Feb 2023 19:03:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-23-editing-and-version-histories/</guid>
+      <description>I would like to start editing the posts that I&amp;rsquo;ve got on the site now. But I don&amp;rsquo;t want to lose any information about what they are/were like in their original state. So I think I need to use and understand git at this point.
+For context, I haven&amp;rsquo;t initiated git on this project yet. And I definitely haven&amp;rsquo;t pushed anything to github. And I&amp;rsquo;m even farther away from publishing anything&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Adding Posts</title>
+      <link>http://example.org/posts/2023-02-23-first-posting/</link>
+      <pubDate>Thu, 23 Feb 2023 11:10:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-23-first-posting/</guid>
+      <description>Finally I&amp;rsquo;ll get to the point where I can add these blog posts to the blog. I am expecting this step to be very gratifying. I am also expecting it to include lots of reformatting, because I&amp;rsquo;ve been writing all of this stuff as plain text and I&amp;rsquo;ll need to make it all into MarkDown. I&amp;rsquo;m excited about MarkDown because it&amp;rsquo;s still so close to plain text, and I think it can be opened as plain text (and all of this because I liked Derek Sivers point about writing in plain text), but MarkDown will have some formatting options.</description>
+    </item>
+    
+    <item>
+      <title>Flesh on the bones</title>
+      <link>http://example.org/posts/2023-02-23-flesh-on-the-bones/</link>
+      <pubDate>Thu, 23 Feb 2023 09:12:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-23-flesh-on-the-bones/</guid>
+      <description>9:12am
+The next bit of the process is still about the basics, but it&amp;rsquo;s about putting more flesh on the bones of the website.
+Somehow it&amp;rsquo;s important to me that I can imagine this is all getting set up in a way that will allow more growth in the future. I imagine eventually I&amp;rsquo;ll be wanting to do and learn things about computer life that will go way beyond a static website &amp;ndash; like learning new languages, or going through the Teach Yourself CS series, or building a habit tracker app, or building the amino acid app for Irene.</description>
+    </item>
+    
+    <item>
+      <title>Literate Programming?</title>
+      <link>http://example.org/posts/2023-02-23-literate-programming/</link>
+      <pubDate>Thu, 23 Feb 2023 07:30:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-23-literate-programming/</guid>
+      <description>Is what I am doing a version of &amp;ldquo;Literate Programming?&amp;rdquo; I&amp;rsquo;m not sure, but I am interested in learning more about that and what it&amp;rsquo;s relationship might be to documentation.</description>
+    </item>
+    
+    <item>
+      <title>Skeleton from Scratch</title>
+      <link>http://example.org/posts/2023-02-23-hugo-skeleton/</link>
+      <pubDate>Thu, 23 Feb 2023 05:39:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-23-hugo-skeleton/</guid>
+      <description>5:39am
+If I do the quickstart instructions from the Hugo page, I end up with a site that is visible on the localhost immediately. So that means the file system it initializes is &amp;lsquo;complete&amp;rsquo; in some sense of the word.
+On the other hand, if I initialize my own site, the file system skeleton is there, but it&amp;rsquo;s relatively empty, and nothing is visible on local host immediately. &amp;ldquo;No page found&amp;rdquo; when I start the development server.</description>
+    </item>
+    
+    <item>
+      <title>Slow Enough to Document</title>
+      <link>http://example.org/posts/2023-02-22-documentation-principle/</link>
+      <pubDate>Wed, 22 Feb 2023 16:40:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-22-documentation-principle/</guid>
+      <description>4:40pm
+One principle I&amp;rsquo;d like to follow is to never go faster than I can document. I have already hit a point with the hugo thing where I can feel myself wanting to speed through something.
+I want to do a post about what happens when I do the quicksite start through the hugo website compared to What happens when I initialize a site totally from scratch
+What files do I end up with in each case?</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Hugo</title>
+      <link>http://example.org/posts/2023-02-22-setting-up-hugo/</link>
+      <pubDate>Wed, 22 Feb 2023 13:15:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-22-setting-up-hugo/</guid>
+      <description>1:15 Starting to set up hugo. First thing I notice when I go to the documentation page is that the first thing they mention in their overview is &amp;ldquo;Hugo&amp;rsquo;s Security Model&amp;rdquo;. Why is security the first thing?
+&amp;ldquo;When developing and building your site, the runtime is the hugo executable. Securing a runtime can be a real challenge.&amp;rdquo;
+What is a runtime? A runtime is when the program runs. In the case of Hugo, it&amp;rsquo;s when Hugo builds the website&amp;hellip; it makes the static HTML output.</description>
+    </item>
+    
+    <item>
+      <title>Where do I start?</title>
+      <link>http://example.org/posts/2023-02-21-where-do-i-start/</link>
+      <pubDate>Tue, 21 Feb 2023 04:45:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-21-where-do-i-start/</guid>
+      <description>4:45pm With a little more poking around on the internet, I found a LinkedIn group for Technical Writers. The first post I found interesting was asking about learning API documentation, which I intuited is a special subset of technical writing. The author of the post mentioned two things they were already using to learn, and one of them was a website called idratherbewriting.com. Seems like as good a place to start as any, so I&amp;rsquo;ve been poking around on that website for an hour or two now.</description>
+    </item>
+    
+    <item>
+      <title>Waking Up</title>
+      <link>http://example.org/posts/2023-02-21-waking-up/</link>
+      <pubDate>Tue, 21 Feb 2023 02:30:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/2023-02-21-waking-up/</guid>
+      <description>Man, just deleted a bunch of stuff I wrote here.
+The gist was, tell the story of the first post to this as yet unsubstantiated blog.
+Tell it with some details related to waking up in the middle of the night, getting tempted by a linkedIn thing from Sergei&amp;hellip; Why is he posting a code challenge think? Doesn&amp;rsquo;t he have a job already? Yep, he works for some company that Jeff Bezos started?</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Lower power is the spirit of the depths.</description>
+    </item>
+    
+  </channel>
+</rss>

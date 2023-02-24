@@ -1,17 +1,18 @@
 ---
 title: More than Just Posts
-date: 2024-02-24T06:34:00Z
+date: 2023-02-24T06:39:00Z
 ---
 
 ## Pages vs. Posts
 
 I have lots of ideas about what I want to do with computers.
 The most pressurized idea is Get a Job.
+
 But there are other ideas too.
-I want to learn C.
-I want to go through the curriculum of [Teach Yourself CS](https://teachyourselfcs.com/).
-I want to build a habit tracker.
-I want to build a screentime dashboard for macOS, to curb my bad screentime habits.
+- I want to learn C.
+- I want to go through the curriculum of [Teach Yourself CS](https://teachyourselfcs.com/).
+- I want to build a habit tracker.
+- I want to build a screentime dashboard for macOS, to curb my bad screentime habits.
 Basically, I want to understand computers better, because they are so ubiquitous and the site of almost all of my compulsive behavior.
 
 A computer is a tool, but right now it feels like the tool uses me, somehow.
@@ -29,6 +30,7 @@ But it would be great to have a spot on this website where I have a list of idea
 It would be a list of possibilities, projects that it might be cool to do.
 It would be more like a PAGE, a page that gets updated.
 
+## What's next? 
 An ideas page.
 And a now page.
 Other types of pages would be the about page and the home page.
