@@ -2,20 +2,22 @@ body {
   width: 500px;
   margin: 0 auto;
   font-family: sans-serif;
-  a {
-    color: #0594cb;
-    text-decoration: none;
+  ul {
+      a {
+        color: #0594cb;
+        text-decoration: none;
 
-    &:hover {
-    color: #96ccff; 
-    }
-  }
+        &:hover {
+        color: #96ccff; 
+        }
+      }
+     }
 }
 
 header {
   a {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -34,6 +36,7 @@ nav ul {
 
     &:hover {
       text-decoration: underline;
+      color: #fff;
     }
   }
 
