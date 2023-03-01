@@ -1,0 +1,19 @@
+{{ $pubdate := .PublishDate.Format "January 2, 2006" }}
+<div class="post-info-last-mod">
+    created:
+    <time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">
+        {{ $pubdate }}
+    </time>
+</div>
+
+{{ if .Lastmod }}
+    {{ $lastmod := .Lastmod.Format "January 2, 2006" }}
+    {{ if ne $lastmod $pubdate }} <!-- ne means 'not equal'-->
+        <div class="post-info-last-mod">
+            updated:
+            <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
+	        {{ $lastmod }}
+            </time>
+	</div>
+    {{ end }}
+{{ end }}

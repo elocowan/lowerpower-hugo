@@ -1,6 +1,10 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://ethancowan.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Ethan Cowan'
+enableGitInfo = true
 
 [params]
 name = 'Ethan Cowan'
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
