@@ -3,13 +3,20 @@ title: Setting Up Hugo
 date: 2023-02-22T13:15:00Z
 ---
 
-1:15
-Starting to set up hugo.
-First thing I notice when I go to the documentation page is that the first thing they mention in their overview is "Hugo's Security Model".
+To set up Hugo, I'll use the docs.
+If I were *only* setting up hugo, I'd just follow the instructions.
+But because my larger mission is to become a technical writer, I'm reading the docs through 2 lenses:
+1. user lens
+2. aspiring writer lens
+
+I'll be switching back and forth between these two lenses throughout this post, trying to understand both how to set up hugo *and* how the hugo docs team is guiding me through the experience.
+
+## Where do the docs start?
+The first thing on the [hugo documentation page](https://gohugo.io/documentation/) is "Hugo's Security Model."
 Why is security the first thing?
 
-"When developing and building your site, the runtime is the hugo executable.
-Securing a runtime can be a real challenge."
+>"When developing and building your site, the runtime is the hugo executable.
+>Securing a runtime can be a real challenge."
 
 What is a runtime?
 A runtime is when the program runs.
@@ -52,7 +59,9 @@ But even static websites can integrate with external services..."
 So there are privacy settings related to disabling tracking by other websites like disqus, googleAnalytics, instagram, etc.
 
 
-Then, with those security and privacy STUFF out of the way, What is Hugo?
+Then, with that security and privacy STUFF out of the way...
+
+## What is Hugo?
 
 "Hugo is a static site generator.
 Unlike systems that dynamically build a page with each vistor request, Hugo builds pages when you create or update your content.
@@ -113,23 +122,22 @@ So it's fast.
 
 So what is happening when I "install hugo" is that I'm downloading the Hugo function so I can use it to make HTML files.
 
-Prerequisites
-"Although not required in all cases, Git and Go are often used when working with Hugo."
+## Actually starting the setup
 
-So first, I need to download Go.
-I do want to learn more about Go, but right now I just want to download it.
+Prerequisites:
+> "Although not required in all cases, Git and Go are often used when working with Hugo."
 
-Go is a language, so I'm putting in on my computer so that I can install Hugo.
+So, I download Go.
+In the future I want to learn more about Go, but right now I just want to download it.
 
-I could download the binary code for Hugo and extract the archive, move the executable to the desired directory, add the directory to the PATH environment variable, verify I have execute permission on the file, then execute the binary to install that way....
+To install hugo, I could download the binary code, extract the archive, move the executable to the desired directory, add the directory to the PATH environment variable, verify I have execute permission on the file, then execute the binary to install that way....
 
-BUT, I'm just going to use Homebrew, a package manager for macOS
+BUT, I'm just going to use Homebrew, a package manager for macOS.
 
 Then I'll use the suggested quickstart, to "learn to create a Hugo site in minutes."
 
-2:25pm
 
-2:29pm
+
 Quickstart site is up and running.
 Super quick start.
 I have questions about what it means to have a development server going.

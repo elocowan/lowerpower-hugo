@@ -15,6 +15,11 @@ date: 2023-02-28
 
 ### Stuff to Learn
 - learn about Hugo page bundles to understand how to organize sequences of stuff (make series of posts out of the raw material of the log)
+- [Teach Yourself CS](https://teachyourselfcs.com/)
+    1. Programming
+    2. Computer Architecture
+    3. Algorithms and Data Structures 
+
 
 ### Workflow Stuff
 - once the lowerpower file system is set up right, with page bundles, set up new bash functions (or figure out a more elegant way? macros?) so that single word commands open up markdown templates for dreams, for log page entries, for anything else?
