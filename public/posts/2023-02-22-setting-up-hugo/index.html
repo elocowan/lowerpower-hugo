@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <title>Setting Up Hugo</title>
 
-<link rel="stylesheet" href="http://example.org/sass/main.min.css">
+<link rel="stylesheet" href="http://ethancowan.com/sass/main.min.css">
 
 </head>
 
@@ -19,19 +19,30 @@
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="/about/">About</a></li>
+    <li><a href="/now/">Now</a></li>
     <li><a href="/posts/">Log</a></li>
+    <li><a href="/queue/">Queue</a></li>
   </ul>
 </nav>
 
   
   <h1>Setting Up Hugo</h1>
   <p>February 22, 2023</p>
-  <p>1:15
-Starting to set up hugo.
-First thing I notice when I go to the documentation page is that the first thing they mention in their overview is &ldquo;Hugo&rsquo;s Security Model&rdquo;.
+  <p>To set up Hugo, I&rsquo;ll use the docs.
+If I were <em>only</em> setting up hugo, I&rsquo;d just follow the instructions.
+But because my larger mission is to become a technical writer, I&rsquo;m reading the docs through 2 lenses:</p>
+<ol>
+<li>user lens</li>
+<li>aspiring writer lens</li>
+</ol>
+<p>I&rsquo;ll be switching back and forth between these two lenses throughout this post, trying to understand both how to set up hugo <em>and</em> how the hugo docs team is guiding me through the experience.</p>
+<h2 id="where-do-the-docs-start">Where do the docs start?</h2>
+<p>The first thing on the <a href="https://gohugo.io/documentation/">hugo documentation page</a> is &ldquo;Hugo&rsquo;s Security Model.&rdquo;
 Why is security the first thing?</p>
+<blockquote>
 <p>&ldquo;When developing and building your site, the runtime is the hugo executable.
 Securing a runtime can be a real challenge.&rdquo;</p>
+</blockquote>
 <p>What is a runtime?
 A runtime is when the program runs.
 In the case of Hugo, it&rsquo;s when Hugo builds the website&hellip; it makes the static HTML output.
@@ -63,7 +74,8 @@ By using Hugo you are standing on very solid ground.
 Static HTML files on disk are much easier to reason about compared to server and database driven web sites.</p>
 <p>But even static websites can integrate with external services&hellip;&rdquo;</p>
 <p>So there are privacy settings related to disabling tracking by other websites like disqus, googleAnalytics, instagram, etc.</p>
-<p>Then, with those security and privacy STUFF out of the way, What is Hugo?</p>
+<p>Then, with that security and privacy STUFF out of the way&hellip;</p>
+<h2 id="what-is-hugo">What is Hugo?</h2>
 <p>&ldquo;Hugo is a static site generator.
 Unlike systems that dynamically build a page with each vistor request, Hugo builds pages when you create or update your content.
 Since websites are viewed more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website&rsquo;s end users
@@ -105,17 +117,17 @@ They are static and simple.</p>
 <p>HTTP servers are very good at sending files.
 So it&rsquo;s fast.</p>
 <p>So what is happening when I &ldquo;install hugo&rdquo; is that I&rsquo;m downloading the Hugo function so I can use it to make HTML files.</p>
-<p>Prerequisites
-&ldquo;Although not required in all cases, Git and Go are often used when working with Hugo.&rdquo;</p>
-<p>So first, I need to download Go.
-I do want to learn more about Go, but right now I just want to download it.</p>
-<p>Go is a language, so I&rsquo;m putting in on my computer so that I can install Hugo.</p>
-<p>I could download the binary code for Hugo and extract the archive, move the executable to the desired directory, add the directory to the PATH environment variable, verify I have execute permission on the file, then execute the binary to install that way&hellip;.</p>
-<p>BUT, I&rsquo;m just going to use Homebrew, a package manager for macOS</p>
+<h2 id="actually-starting-the-setup">Actually starting the setup</h2>
+<p>Prerequisites:</p>
+<blockquote>
+<p>&ldquo;Although not required in all cases, Git and Go are often used when working with Hugo.&rdquo;</p>
+</blockquote>
+<p>So, I download Go.
+In the future I want to learn more about Go, but right now I just want to download it.</p>
+<p>To install hugo, I could download the binary code, extract the archive, move the executable to the desired directory, add the directory to the PATH environment variable, verify I have execute permission on the file, then execute the binary to install that way&hellip;.</p>
+<p>BUT, I&rsquo;m just going to use Homebrew, a package manager for macOS.</p>
 <p>Then I&rsquo;ll use the suggested quickstart, to &ldquo;learn to create a Hugo site in minutes.&rdquo;</p>
-<p>2:25pm</p>
-<p>2:29pm
-Quickstart site is up and running.
+<p>Quickstart site is up and running.
 Super quick start.
 I have questions about what it means to have a development server going.
 I&rsquo;m pretty sure it means that the Hugo program makes it so that I can edit files on the computer and see immediate results in the broswer.
@@ -134,6 +146,26 @@ What is all the extra code that ends up in the index.html file?</p>
 Manually clear the contents of the public directory before each build to remove draft, expired, and future content.&rdquo;</p>
 <p>The next part in the documentation is Modules, and I&rsquo;m pretty cooked from working through this much content, so this post will end here.</p>
 <p>Next time, I&rsquo;ll find out, What is a module?</p>
+
+
+  
+<div class="post-info-last-mod">
+    created:
+    <time datetime="2023-02-22 13:15:00 &#43;0000 UTC" title="2023-02-22 13:15:00 &#43;0000 UTC">
+        February 22, 2023
+    </time>
+</div>
+
+
+    
+     
+        <div class="post-info-last-mod">
+            updated:
+            <time datetime="2023-03-01 17:14:42 -0700 MST" title="2023-03-01 17:14:42 -0700 MST">
+	        March 1, 2023
+            </time>
+	</div>
+    
 
 
   

@@ -91,3 +91,19 @@ I make a .github director with a workflows directory inside it.
 Then I open gh-pages.yml in vim, and paste that stuff in.
 Save it.
 Will that do the trick?
+
+Now I will push those changes to the git respository.
+```
+git add .
+git commit
+git push
+```
+
+All the changes, including the yaml file, show up in my github repository, but still nothing showing at elocowan.github.io.
+
+I think it's because of this:
+> the GitHub Actions in these instructions publish to the gh-pages branch. Therefore, if you are publishing GitHub pages for a user or organization, you will need to change the publishing branch to gh-pages. See the instructions later in this document.
+
+I think that means that Hugo is setup to publish to gh-branches... and that branch doesn't even exist on my github repository.
+
+I wonder, if I run the `hugo` command, will it make that branch?
