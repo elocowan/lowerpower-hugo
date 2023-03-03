@@ -107,3 +107,10 @@ I think it's because of this:
 I think that means that Hugo is setup to publish to gh-branches... and that branch doesn't even exist on my github repository.
 
 I wonder, if I run the `hugo` command, will it make that branch?
+
+
+What I did instead was, use the settings in the github repository to make a page out of that repository, which required making the repo public.
+Then github had a suggested yaml file (hugo.yml) for setting up a Hugo deployment, so I used that, and it was set up to deploy when there are changes to the main branch.
+I don't think I need the yaml file that was suggested on the hugo docs, the gh-pages branch. I'm not sure...
+
+But the last thing I did was change the config.toml file to have 'elocowan.github.io' as the baseURL, and then it worked when I go to elocowan.github.io! 
