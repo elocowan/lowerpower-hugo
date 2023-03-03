@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 <title>Deploy on Github Pages</title>
 
-<link rel="stylesheet" href="http://ethancowan.com/sass/main.min.css">
+<link rel="stylesheet" href="https://elocowan.github.io/sass/main.min.css">
 
 </head>
 
@@ -104,6 +104,10 @@ git push
 </blockquote>
 <p>I think that means that Hugo is setup to publish to gh-branches&hellip; and that branch doesn&rsquo;t even exist on my github repository.</p>
 <p>I wonder, if I run the <code>hugo</code> command, will it make that branch?</p>
+<p>What I did instead was, use the settings in the github repository to make a page out of that repository, which required making the repo public.
+Then github had a suggested yaml file (hugo.yml) for setting up a Hugo deployment, so I used that, and it was set up to deploy when there are changes to the main branch.
+I don&rsquo;t think I need the yaml file that was suggested on the hugo docs, the gh-pages branch. I&rsquo;m not sure&hellip;</p>
+<p>But the last thing I did was change the config.toml file to have &rsquo;elocowan.github.io&rsquo; as the baseURL, and then it worked when I go to elocowan.github.io!</p>
 
 
   
