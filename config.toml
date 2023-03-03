@@ -1,4 +1,4 @@
-baseURL = 'http://ethancowan.com/'
+baseURL = 'https://elocowan.github.io/'
 languageCode = 'en-us'
 title = 'Ethan Cowan'
 enableGitInfo = true
