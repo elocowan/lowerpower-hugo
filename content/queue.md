@@ -5,23 +5,30 @@ date: 2023-02-28
 ## Queue
 
 ### Website Additions
+- remove home page and about page - don't have uses for those yet
+- change menu options to NOW | PAST | FUTURE?
+- fix deployment process on github pages by setting up gh-pages branch and maybe other things that will allow for a public site and a site that's more for development
 - figure out how to add subdomains to website
-    - dreams.ethancowan.com
-    - feldencast.ethancowan.com
+    - dream.ethancowan.com
+    - body.ethancowan.com
 - add Previous and Next buttons to the post layout
-- redo header to match other docs websites 
-	- make it span the whole page, my name in the top right corner, the menu items across the top
-	- add CSS so it's responsive at various screen sizes
-- deploy website on github pages
-- reassign ethancowan.com to point to new website
-- ~~add a 'last updated' element to the 'Now' page - want it to update automatically - might need to be using github or something else for this to work~~ (Done 2023-02-28)
-- ~~add a 'Now' page~~ (Done 2023-02-28)
-- ~~add a queue page~~ (Done 2023-02-28)
 - maybe use a documentation website as a model for my website?
 	- examples:
 		- [React Docs](https://beta.reactjs.org/)
 		- [Hugo Docs](https://gohugo.io/documentation/)
 		- [Go Doc](https://go.dev/doc/)
+- redo header to match other docs websites 
+	- make it span the whole page, my name in the top right corner, the menu items across the top
+	- add CSS so it's responsive at various screen sizes
+- reassign ethancowan.com to point to new website
+- imitate Go docs, simple header
+- put in file path partial to always display what page I'm on and where it is in the directory structure
+- add dreams to website
+- add search to website (so I can search dreams)
+- ~~deploy website on github pages~~ (Done [badly] 2023-03-03)
+- ~~add a 'last updated' element to the 'Now' page - want it to update automatically - might need to be using github or something else for this to work~~ (Done 2023-02-28)
+- ~~add a 'Now' page~~ (Done 2023-02-28)
+- ~~add a queue page~~ (Done 2023-02-28)
 
 ### Stuff to Learn
 - learn about Hugo page bundles to understand how to organize sequences of stuff (make series of posts out of the raw material of the log)
