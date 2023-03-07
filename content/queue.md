@@ -5,9 +5,13 @@ date: 2023-02-28
 ## Queue
 
 ### Website Additions
-- remove home page and about page - don't have uses for those yet
-- change menu options to NOW | PAST | FUTURE?
-- fix deployment process on github pages by setting up gh-pages branch and maybe other things that will allow for a public site and a site that's more for development
+- differentiate between this form of note taking that I see on localhost and an actual live website for ethancowan.com
+- make ethancowan.com a portfolio website, NOT the journal website...
+- make a bachsj.com website for documentation on policies and procedures for drivers
+	- use hugo
+	- use github pages to host
+	- maybe get Jordan a domain name?
+	- or us MKDocs - it's pretty nice and clean
 - figure out how to add subdomains to website
     - dream.ethancowan.com
     - body.ethancowan.com
@@ -25,6 +29,9 @@ date: 2023-02-28
 - put in file path partial to always display what page I'm on and where it is in the directory structure
 - add dreams to website
 - add search to website (so I can search dreams)
+- ~~remove home page and about page - don't have uses for those yet~~ (Done 2023-03-04)
+- ~~change menu options to NOW | PAST | FUTURE?~~ (Done 2023-03-04)
+- ~~fix deployment process on github pages~~ (Done 2023-03-04)
 - ~~deploy website on github pages~~ (Done [badly] 2023-03-03)
 - ~~add a 'last updated' element to the 'Now' page - want it to update automatically - might need to be using github or something else for this to work~~ (Done 2023-02-28)
 - ~~add a 'Now' page~~ (Done 2023-02-28)
